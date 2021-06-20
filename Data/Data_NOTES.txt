@@ -1,0 +1,3 @@
+When MultiTasKing loads for the first time, it will try to open (in the same directory than the EBOOT.PBP) the file "Data.zip" (which is this folder compressed), and it will launch the installer, that will unzip this folder into the same directory than the EBOOT.PBP
+
+After a successful uncompression, "Data.zip" is renamed to "Data_installed.zip". You must NOT delete this file, it will be useful to recover the instalation in case of problem (not implemented yet).
